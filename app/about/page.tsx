@@ -14,18 +14,80 @@ export default function Privacy() {
 }
 
 const aboutContent = `
+## Project Overview
 
-**Site:** [mdxblog.io](https://mdxblog.io)
+This project is a modern web application built using Next.js 14, showcasing the some of the latest features and attempting to adhere to the best practices in web development. It leverages TypeScript for type safety, Tailwind CSS for styling, Clerk for authentication, and shadcn/ui components for UI elements. The application is designed to provide a robust foundation for building a variety of web applications.
 
-**Focus:** Basic Next.js 14 aspires to provide the best resources for creating static blogs utilizing MDX (Markdown for the component era). The site serves as a hub for various MDX-related content and tools.
+### Key Features:
 
-**Contents:**
+- **Next.js 14**: Utilizes the latest version of Next.js for server-side rendering, static site generation, and API routes.
+- **TypeScript**: Implements TypeScript for strong typing and reducing runtime errors.
+- **Tailwind CSS**: Uses Tailwind CSS for efficient and responsive styling.
+- **Clerk Authentication**: Integrates Clerk for secure and easy-to-use authentication.
+- **shadcn/ui Components**: Incorporates shadcn/ui components for a sleek and modern UI.
+- **App Router**: Leverages Next.js 14's App Router for optimized routing and navigation.
 
-**Templates:** MDX templates suitable for static blog creation. Templates are designed for compatibility and ease of use.
+## Getting Started
 
-**Tutorials:** Guides on how to use MDX for blog development, covering various aspects of MDX implementation.
+### Prerequisites
 
-**Articles:** Technical articles focused on MDX usage, best practices, and development tips.
+- Node.js (version 12 or newer)
+- npm or Yarn
 
-Basic Next.js 14 is a resource-oriented platform aiming to provide practical and technical information for static blog development using MDX.
+### Installation
+
+1. Clone the repository:
+
+  bash
+  git clone https://github.com/owolfdev/basic-next-14-template
+  cd basic-next-14-template
+  
+
+2. Install dependencies:
+
+  bash
+  npm install
+  # or
+  yarn install
+   
+
+3. Set up environment variables:
+
+- Create a .env.local file.
+- Fill in the necessary environment variables for Clerk and other services.
+
+4. Run the development server:
+
+  bash
+  npm run dev
+  # or
+  yarn dev
+  
+
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Usage
+
+- Navigate through the app using the App Router.
+- Authenticate using the Clerk-powered login system.
+- Explore UI elements provided by shadcn/ui.
+
+## Contributing
+
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Next.js Team for the amazing framework.
+- Clerk for providing authentication solutions.
+- shadcn for the excellent UI components.
+- Tailwind CSS Team for the intuitive styling framework.
+
+## Support
+
+For support, email owolfdev@gamil.com.
 `;
