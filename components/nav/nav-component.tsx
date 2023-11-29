@@ -32,7 +32,7 @@ const NavComponent: React.FC = () => {
     <div className="flex items-center justify-between w-full">
       <div className="sm:flex gap-6 items-center hidden">
         <div className="font-bold text-2xl tracking-tight">
-          <Link href="/">MDX Blog</Link>
+          <Link href="/">Basic Next.js 14</Link>
         </div>
         {/* <nav>
           <Link href="/about">About</Link>
